@@ -1,0 +1,4 @@
+#Problem Set 1 
+#### Donovan Bautista
+
+This code is used to demonstrate basic syntax of a programming language. The **#include <*stdio.h*>** instructs the compiler to use the contents of the *stdio.h* file. This is followed by a main function, a function that starts every C program. The code then excecutes the printf fuction. The techniques used in this code are comments, **#include**, **int main**, and **print f**. Compiling and running the program prints *"Hello, World!"*. Changing the text inside the double quotes makes the result whatever is now in the double quotes. For example, I typed in "berklee!" and the result was *"berklee!"*
