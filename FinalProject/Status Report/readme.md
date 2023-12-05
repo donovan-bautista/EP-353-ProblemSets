@@ -6,7 +6,7 @@ Donovan Bautista
 
 #### Project title
 
-TODO
+Rapid: A Live Tremolo Audio Processor
 
 ***
 
@@ -16,12 +16,12 @@ Short answers for the below questions suffice. If you want to alter your plan fo
 
 #### What have you done for your project so far?
 
-TODO
+I have created a (seemingly) functional block of code that adds a tremolo effect to audio that passes through. 
 
 #### What have you not done for your project yet?
 
-TODO
+I have not gotten the audio to work properly in the AudioPluginHost. This could be because the plugin editor is not complete 
 
 #### What problems, if any, have you encountered?
 
-TODO
+I'm having issues getting values from the processor into the editor. It's saying that a lot of things are undeclared.
