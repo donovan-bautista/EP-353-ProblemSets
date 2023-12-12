@@ -6,6 +6,10 @@
   ==============================================================================
 */
 
+// The purpose of this code is to make an audio processor that adds a tremolo effect to anything that passes through
+// To use this, the user must make sure st the top, Rapid is set to "all" and run the code
+// This will create a component that can be used in JUCE's AudioPluginHost or a cooperative DAW
+
 #include "PluginProcessor.h"
 #include "PluginEditor.h"
 
