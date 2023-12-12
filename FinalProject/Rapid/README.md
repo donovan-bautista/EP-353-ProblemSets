@@ -1,10 +1,12 @@
 # User Manual
 
-Welcome to Rapid: A Live Tremolo Audio Processor! To start, make sure you have JUCE downloaded. Becasue this manual is focused on downloading and using rapid, a tutorial of how to download JUCE can be found on JUCE's website. This will go over how to download Rapid via JUCE and how to use it in JUCE;s AudioPluginHost. 
+Welcome to Rapid: A Live Tremolo Audio Processor! To start, make sure you have JUCE downloaded. Becasue this manual is focused on downloading and using rapid, a tutorial of how to download JUCE can be found on JUCE's website. This will go over how to download Rapid via JUCE and how to use it in JUCE's AudioPluginHost. 
 
 To start, download Rapid from the ____ and open the Rapid.jucer file using Projucer. From here, make sure the path to the modules is set correctly. You can accomplish this by clicking the modules tab on the left. Next you click on the top module, which in this case should be juce_audio_basics. You want to make sure the box that says "Use global path" is empty and then set the path with the three dot box above that. To find the module folder, locate your previously downloaded JUCE folder and then select the module folder. After that, you should be ready to open Rapid with the xcode button near the middle of the top. 
 
 Once you have opened Rapid, click on the icon at the very left of the top bar. This could vary depending on your hardware but change it to Rapid - all. From here, make sure you're on the PluginProcessor C++ page by clicking on the C+ PluginProcessor tab at the top. If it is not visible, or you want to make sure you're on the right page, click the folder icon on the very left, expanding the rapid icon, rapid folder, source, and finally choosing the PluginProcessor file with the C+ icon next to it. After you're on this page, click the play button near the top left. This will run the code and should create a component that you will use later on.
+
+It is worth noting from here that Rapid will be available to use in most DAWs now that you have the component. Make sure you scan for new plugins through your respective DAW and rapid should be accessed by the same name wherever plugins are accessed. It should be listed under yourcompany. 
 
 Your next step will be to open JUCE's AudioPluginHost. you can do this by first accessing your JUCE file, then going to extras, and finally AudioPluginHost. Next, open AudioPluginJucer with Projucer and make sure the modules are set correctly like last time. After you open AudioPluginJucer, press the playbutton at the top like we did before. This should open the AudioPluginHost software.
 
